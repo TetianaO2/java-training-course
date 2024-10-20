@@ -7,10 +7,7 @@ public class ContractedEmployee extends Employee {
     public ContractedEmployee(String employeeId, String name, String federalTaxId) {
         // TODO fill in code here
         super(employeeId, name);
-        this.federalTaxId = federalTaxId;
-        this.hourlyRate = hourlyRate;
-        this.numberOfHoursWorked = numberOfHoursWorked;
-    }
+        this.federalTaxId = federalTaxId;}
 
     public String getFederalTaxId() {
         // TODO fill in code here and replace the return statement
@@ -50,6 +47,7 @@ public class ContractedEmployee extends Employee {
 
     @Override
     public String toString() {
-        return super.toString() + ", Federal Tax ID: " + federalTaxId;
+        return "Employee ID: " + getEmployeeId() + ", Name: " + getName() + ", Average Monthly Salary: " + String.format("%.2f", calculatePay()) +
+                ", Federal Tax ID: " + federalTaxId;
     }
 }

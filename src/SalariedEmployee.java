@@ -7,7 +7,6 @@ public class SalariedEmployee extends Employee {
         // TODO fill in code here
         super(employeeId, name);
         this.socialSecurityNumber = socialSecurityNumber;
-        this.fixedMonthlyPayment = fixedMonthlyPayment;
     }
 
     public String getSocialSecurityNumber() {
@@ -38,6 +37,7 @@ public class SalariedEmployee extends Employee {
 
     @Override
     public String toString() {
-        return super.toString() + ", Social Security Number: " + socialSecurityNumber;
+        return "Employee ID: " + getEmployeeId() + ", Name: " + getName() + ", Average Monthly Salary: " + String.format("%.2f", calculatePay()) +
+                "," + " Social Security Number: " + socialSecurityNumber;
     }
 }
