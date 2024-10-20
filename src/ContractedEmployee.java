@@ -7,7 +7,8 @@ public class ContractedEmployee extends Employee {
     public ContractedEmployee(String employeeId, String name, String federalTaxId) {
         // TODO fill in code here
         super(employeeId, name);
-        this.federalTaxId = federalTaxId;}
+        this.federalTaxId = federalTaxId;
+    }
 
     public String getFederalTaxId() {
         // TODO fill in code here and replace the return statement
