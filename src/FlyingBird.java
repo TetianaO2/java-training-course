@@ -3,6 +3,6 @@ public abstract class FlyingBird extends Bird {
 
     public void checkWings() {
         // TODO print a message that bird wings are checked
-        System.out.println("Bird wings are checked for flying bird");
+        System.out.println("Bird wings are checked");
     }
 }
