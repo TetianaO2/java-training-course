@@ -46,6 +46,5 @@ public class Zoo {
         for (Bird bird : list) {
             System.out.println(bird);
         }
-
     }
 }
