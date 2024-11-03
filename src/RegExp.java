@@ -14,8 +14,7 @@ public class RegExp {
      */
     public static String getIpAddress(String text) {
         // TODO fill in code here for extracting IP address using Regular Expression
-        String regExIpAddress;
-        regExIpAddress = "((25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9][0-9]?)\\.(25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9][0-9]?)\\.(25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9][0-9]?)\\.(25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9][0-9]?))";
+        String regExIpAddress = "((25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9][0-9]?)\\.(25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9][0-9]?)\\.(25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9][0-9]?)\\.(25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9][0-9]?))";
         Pattern pattern = Pattern.compile(regExIpAddress);
         Matcher matcher = pattern.matcher(text);
 
