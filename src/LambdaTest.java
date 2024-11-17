@@ -30,7 +30,7 @@ public class LambdaTest {
                 {POSITIVE_INFINITY, POSITIVE_INFINITY},
                 // TODO add 2 more test data here
                 {36.0, 6.0},
-                {121.0, 11.0},
+                {121.0, 11.0}
         };
     }
 
